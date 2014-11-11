@@ -2,14 +2,14 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
   <remote  name="exdroid"
            fetch="git@github.com" />
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="exdroid/build" name="build" revision="lollipop" groups="pdk,tradefed" >
+  <project path="build" name="exdroid/build" remote="exdroid" revision="lollipop" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
