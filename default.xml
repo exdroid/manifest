@@ -3,11 +3,13 @@
 
   <remote  name="aosp"
            fetch=".." />
+  <remote  name="exdroid"
+           fetch="git@github.com" />
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="exdroid/build" name="build" revision="lollipop" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
