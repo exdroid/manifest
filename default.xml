@@ -4,11 +4,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="exdroid"
-           fetch="git@github.com" />
+           fetch="https://github.com" />
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
 
+  <project path="manifest" name="exdroid/manifest" remote="exdroid" revision="lollipop" />
   <project path="build" name="exdroid/build" remote="exdroid" revision="lollipop" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
