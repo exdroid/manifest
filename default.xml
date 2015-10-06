@@ -22,8 +22,8 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/lge/mako" name="exdroid/device_lge_mako" revision="android-5.1.1_r24" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" revision="android-5.1.1_r24" groups="device,mako" clone-depth="1" />
+  <project path="device/lge/mako" name="exdroid/device_lge_mako" remote="aosp" revision="android-5.1.1_r24" groups="device,mako" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" remote="aosp" revision="android-5.1.1_r24" groups="device,mako" clone-depth="1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
