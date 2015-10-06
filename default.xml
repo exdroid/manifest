@@ -22,8 +22,8 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/lge/mako" name="exdroid/device_lge_mako" remote="aosp" revision="lollipop-mr1-release" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" remote="aosp" revision="lollipop-mr1-release" groups="device,mako" clone-depth="1" />
+  <project path="device/lge/mako" name="device/lge/mako" remote="aosp" revision="lollipop-mr1-release" groups="device,mako" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" remote="aosp" revision="lollipop-mr1-release" groups="device,mako" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk-cw-fs,pdk-fs" />
@@ -45,7 +45,6 @@
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <!--project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" /-->
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
